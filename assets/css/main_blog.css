@@ -2999,9 +2999,7 @@ pre code {
 			@media screen and (max-width: 980px) {
 
 				body:after {
-					background-attachment: scroll;
-					background-position: top;
-					background-size: 100%;
+
 				}
 
 			}
