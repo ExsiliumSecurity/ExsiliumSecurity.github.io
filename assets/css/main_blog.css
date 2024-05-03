@@ -3000,7 +3000,9 @@ pre code {
 			@media screen and (max-width: 980px) {
 
 				body:after {
-
+					background-image: none;
+					background-color: #1e1f23;
+					padding-top: 4rem;
 				}
 
 			}
