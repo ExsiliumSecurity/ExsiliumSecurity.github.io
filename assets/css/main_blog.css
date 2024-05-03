@@ -2994,6 +2994,7 @@ pre code {
 			z-index: -1;
 			visibility: visible;
 			opacity: 1;
+			overflow: auto;
 		}
 
 			@media screen and (max-width: 980px) {
