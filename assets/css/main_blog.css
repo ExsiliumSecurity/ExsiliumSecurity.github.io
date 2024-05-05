@@ -35,6 +35,22 @@
 	font-variant: small-caps;
 	font-size: 130%;
 }
+p a:hover,a:active{
+	color: rgb(223, 48, 48) !important;
+	background-color: transparent;
+	text-decoration-color: rgba(247, 7, 7, .9) !important;
+}
+p a:link{
+color: rgba(0, 0, 0, 0.5);
+background-color: transparent;
+text-decoration: underline;
+text-decoration-color: rgba(0, 0, 0, 0.5);
+}
+p a:visited{
+color: rgba(0, 0, 0, 0.5);
+background-color: transparent;
+text-decoration-color: rgba(0, 0, 0, 0.5);
+}
 
 #one img {
 	border: 1.4px solid #000;
@@ -2483,7 +2499,10 @@ pre code {
 			}
 
 /* List */
-
+	.listintro {
+		margin-bottom: .5rem !important;
+		
+	}
 	ol {
 		list-style: decimal;
 		margin: 0 0 2rem 0;
@@ -2496,12 +2515,28 @@ pre code {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2rem 0;
+		margin: 0 rem 0 0 rem 0;
 		padding-left: 1rem;
 	}
 
 		ul li {
-			padding-left: 0.5rem;
+			padding-left: .5 rem;
+		}
+		ul li a:hover, a:active{
+				color: rgb(223, 48, 48) !important;
+				background-color: transparent;
+				text-decoration-color: rgba(247, 7, 7, .9) !important;
+		}
+		ul li a:link{
+			color: rgba(0, 0, 0, 0.5);
+			background-color: transparent;
+			text-decoration: underline;
+			text-decoration-color: rgba(0, 0, 0, 0.5);
+		}
+		ul li a:visited{
+			color: rgba(0, 0, 0, 0.5);
+			background-color: transparent;
+			text-decoration-color: rgba(0, 0, 0, 0.5);
 		}
 
 		ul.alt {
@@ -2963,6 +2998,8 @@ pre code {
 	body {
 		background-color: #1e1f23;
 		padding-top: 8rem;
+		
+
 	}
 
 		body.is-loading:after {
@@ -2998,11 +3035,16 @@ pre code {
 		}
 
 			@media screen and (max-width: 980px) {
-
+				
+				body{
+				
+				}
 				body:after {
+					padding-top: 4rem;
+
 					background-image: none;
 					background-color: #1e1f23;
-					padding-top: 4rem;
+					
 				}
 
 			}
