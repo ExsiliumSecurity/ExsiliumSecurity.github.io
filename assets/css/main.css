@@ -50,7 +50,7 @@ footer, header, hgroup, menu, nav, section {
 		font-size: 60%;
 		/*border: solid 4px #ffffff;*/
 	}
-	ul li a:hover, a:active{
+	.vuln li a:hover, a:active {
 		color: rgb(255, 100, 100) !important;
 		background-color: transparent;
 		text-decoration: underline;
