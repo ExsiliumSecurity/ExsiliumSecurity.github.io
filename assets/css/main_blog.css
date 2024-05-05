@@ -2522,6 +2522,9 @@ pre code {
 		ul li {
 			padding-left: .5 rem;
 		}
+		ul li::marker{
+			color: #1e1f23;
+		}
 		ul li a:hover, a:active{
 				color: rgb(223, 48, 48) !important;
 				background-color: transparent;
