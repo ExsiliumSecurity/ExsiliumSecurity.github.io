@@ -42,6 +42,20 @@ footer, header, hgroup, menu, nav, section {
 		font-size: 60%;
 		/*border: solid 4px #ffffff;*/
 	}
+	.vuln  li::marker {
+		/*color: rgb(223, 48, 48);*/
+		color: rgb(223, 48, 48);
+		font-family: 'FontAwesome';
+    		content: '\f188';
+		font-size: 60%;
+		/*border: solid 4px #ffffff;*/
+	}
+	ul li a:hover, a:active{
+		color: rgb(255, 100, 100) !important;
+		background-color: transparent;
+		text-decoration: underline;
+		text-decoration-color: rgbargb(247, 4, 4,.9) !important;
+   	 }
 	.cert{
 		padding: 23px;
 	}
